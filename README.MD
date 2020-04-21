@@ -3,12 +3,19 @@ This notebook is based on the Titanic dataset.
 This notebook contains a Data pre-processing cells which includes
 
 -> dropping column names
+
 -> grouping names in the Name column
+
 -> Hot encoding the embarked column
+
 -> Hot encoding the Cabin column
+
 -> Filling out the missing values of age, fare and embarked
+
 -> Hot encoding the Sex column
+
 -> Scaling the train and test dataset
+
 
 It turns out that dropping age, name and fare has little to do with increasing accuracy of the data.
 So you can comment out blocks and experiment with different blocks
